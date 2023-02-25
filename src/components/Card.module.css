@@ -1,7 +1,8 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  justify-content: space-around;
+  gap: 1rem;
   padding: 1.5rem;
   position: absolute;
   top: 50%;
@@ -16,4 +17,18 @@
 
 .image {
   border-radius: 1rem;
+}
+
+h2,
+p {
+  margin: 2.4rem 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+p {
+  font-size: 1.6rem;
+  color: rgb(0, 0, 0, 50%);
 }
