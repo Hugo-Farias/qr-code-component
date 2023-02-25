@@ -1,16 +1,19 @@
-import img from "../assets/image-qr-code.png";
+import React from "react";
 import cls from "./Card.module.css";
 
-const Card = function () {
+interface props {
+  img: string;
+  title: string;
+  description: string;
+}
+
+const Card: React.FC<props> = function ({ img, title, description }) {
   return (
     <div className={cls.main}>
       <img className={cls.image} src={img} alt="qr code image" />
       <div>
-        <h2>Improve your front-end skills by building projects</h2>
-        <p>
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
-        </p>
+        <h2>{title}</h2>
+        <p>{description}</p>
       </div>
     </div>
   );
