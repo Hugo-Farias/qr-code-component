@@ -12,11 +12,13 @@ const qrcodeContent = {
 function App() {
   return (
     <>
-      <Card
-        img={qrcodeContent.img}
-        title={qrcodeContent.title}
-        description={qrcodeContent.description}
-      />
+      <div>
+        <Card
+          img={qrcodeContent.img}
+          title={qrcodeContent.title}
+          description={qrcodeContent.description}
+        />
+      </div>
     </>
   );
 }

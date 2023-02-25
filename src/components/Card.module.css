@@ -1,7 +1,5 @@
 .main {
   display: flex;
-  margin-top: 50vh;
-  transform: translateY(-50%);
   flex-direction: column;
   justify-content: space-around;
   gap: 1rem;
