@@ -12,7 +12,7 @@ const Card: React.FC<props> = function ({ img, title, description }) {
     <div className={cls.main}>
       <img className={cls.image} src={img} alt="qr code image" />
       <div>
-        <h2>{title}</h2>
+        <h1>{title}</h1>
         <p>{description}</p>
       </div>
     </div>

@@ -11,3 +11,9 @@
 html {
   background-color: #d5e1ef;
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
