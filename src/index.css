@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 10px;
 }
 
-html{
-  background-color: #D5E1EF;
+html {
+  background-color: hsl(220, 15%, 55%);
 }
